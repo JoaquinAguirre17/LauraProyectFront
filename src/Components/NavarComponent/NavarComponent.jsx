@@ -27,6 +27,9 @@ function NavarComponent() {
                             <li className="nav-item">
                                 <BotonComponent ruta={'/Turnos'} nombre={'Turnos'} />
                             </li>
+                            <li className="nav-item">
+                                <BotonComponent ruta={'/AcercaDeMi'} nombre={'Acerca de mi'} />
+                            </li>
 
 
                         </ul>

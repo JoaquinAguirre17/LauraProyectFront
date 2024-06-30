@@ -16,6 +16,7 @@ function App() {
             <Route path="/" element={<HomeComponent />} />
             <Route path='/contacto' element={<ContactoComponent />} />
             <Route path="/Turnos" element={<Form />} />
+            <Route path="/AcercaDeMi" element={<Form />} />
           </Routes>
         </div>
       </Router>
