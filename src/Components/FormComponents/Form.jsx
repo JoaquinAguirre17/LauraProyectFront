@@ -49,7 +49,7 @@ function Form() {
         const fechaHora = `${formData.fecha} ${formData.hora}`;
 
         try {
-            const response = await axios.post('https://lauraback.onrender.com', {
+            const response = await axios.post('https://lauraback.onrender.com/turnos/reservar', {
                 ...formData,
                 fechaHora
             });
