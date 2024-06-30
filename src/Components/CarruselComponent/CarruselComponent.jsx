@@ -1,5 +1,20 @@
 import './CarruselComponent.css'
 import carrusel1 from '../../../public/img/carrusel1.jpg'
+import carrusel2 from '../../../public/img/carrusel2.jpg'
+import carrusel3 from '../../../public/img/carrusel3.jpg'
+import carrusel4 from '../../../public/img/carrusel4.jpg'
+import carrusel5 from '../../../public/img/carrusel5.jpg'
+import carrusel6 from '../../../public/img/carrusel6.jpg'
+import carrusel7 from '../../../public/img/carrusel7.jpg'
+import carrusel8 from '../../../public/img/carrusel8.jpg'
+import carrusel9 from '../../../public/img/carrusel9.jpg'
+import carrusel10 from '../../../public/img/carrusel10.jpg'
+import carrusel11 from '../../../public/img/carrusel11.jpg'
+import carrusel12 from '../../../public/img/carrusel12.jpg'
+import carrusel13 from '../../../public/img/carrusel13.jpg'
+import carrusel14 from '../../../public/img/carrusel14.jpg'
+import carrusel15 from '../../../public/img/carrusel15.jpg'
+
 function CarruselComponent() {
     return (
         <>
@@ -26,46 +41,46 @@ function CarruselComponent() {
                         <img src={carrusel1} class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src="" class="d-block  " alt="..."></img>
+                        <img src={carrusel2} class="d-block  " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../../../public/img/carrusel3.jpg" class="d-block " alt="..."></img>
+                        <img src={carrusel3} class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../../../public/img/carrusel4.jpg" class="d-block " alt="..."></img>
+                        <img src={carrusel4} class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../../../public/img/carrusel5.jpg" class="d-block " alt="..."></img>
+                        <img src={carrusel5} class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../../../public/img/carrusel6.jpg" class="d-block " alt="..."></img>
+                        <img src={carrusel6} class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../../../public/img/carrusel7.jpg" class="d-block " alt="..."></img>
+                        <img src={carrusel7} class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../../../public/img/carrusel8.jpg" class="d-block " alt="..."></img>
+                        <img src={carrusel8} class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../../../public/img/carrusel9.jpg" class="d-block " alt="..."></img>
+                        <img src={carrusel9} class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../../../public/img/carrusel10.jpg" class="d-block " alt="..."></img>
+                        <img src={carrusel10} class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../../../public/img/carrusel11.jpg" class="d-block " alt="..."></img>
+                        <img src={carrusel11} class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../../../public/img/carrusel12.jpg" class="d-block " alt="..."></img>
+                        <img src={carrusel12} class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../../../public/img/carrusel13.jpg" class="d-block " alt="..."></img>
+                        <img src={carrusel13} class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../../../public/img/carrusel14.jpg" class="d-block " alt="..."></img>
+                        <img src={carrusel14} class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../../../public/img/carrusel15.jpg" class="d-block " alt="..."></img>
+                        <img src={carrusel15} class="d-block " alt="..."></img>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
