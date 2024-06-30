@@ -1,5 +1,5 @@
 import './CarruselComponent.css'
-import carrusel2 from '.../../../../public/img/carrusel2.jpg'
+import carrusel1 from '../../../public/img/carrusel1.jpg'
 function CarruselComponent() {
     return (
         <>
@@ -23,10 +23,10 @@ function CarruselComponent() {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="Cliente\public\img\carrusel1.jpg" class="d-block " alt="..."></img>
+                        <img src={carrusel1} class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
-                        <img src={carrusel2} class="d-block  " alt="..."></img>
+                        <img src="" class="d-block  " alt="..."></img>
                     </div>
                     <div class="carousel-item">
                         <img src="../../../../public/img/carrusel3.jpg" class="d-block " alt="..."></img>
