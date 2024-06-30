@@ -12,7 +12,7 @@ function Form() {
     });
 
     const servicios = {
-        "Capping": 3750,
+        "Capping": 3900,
         "Esmaltado Semipermanente": 3000,
         "Soft Gel": 4400,
     };
@@ -111,7 +111,7 @@ function Form() {
                         </div>
                     </div>
                     <div>
-                        <label htmlFor="montoSeña">Monto de la Seña:</label>
+                        <label htmlFor="montoSeña">Monto de la Seña (50%):</label>
                         <input type="number" id="montoSeña" name="montoSeña" value={formData.montoSeña} readOnly />
                     </div>
                     <button type="submit">Reservar</button>
