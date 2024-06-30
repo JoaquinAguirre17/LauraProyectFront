@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavarComponent from './Components/NavarComponent/NavarComponent';
 import ContactoComponent from './Components/ContactoComponent/ContactoComponent';
 import FooterComponent from './Components/FooterComponen/FooterComponent';
+import AcercaDeMi from './Components/AcercaDeMi/AcercaDeMi';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
             <Route path="/" element={<HomeComponent />} />
             <Route path='/contacto' element={<ContactoComponent />} />
             <Route path="/Turnos" element={<Form />} />
-            <Route path="/AcercaDeMi" element={<Form />} />
+            <Route path="/AcercaDeMi" element={<AcercaDeMi />} />
           </Routes>
         </div>
       </Router>
