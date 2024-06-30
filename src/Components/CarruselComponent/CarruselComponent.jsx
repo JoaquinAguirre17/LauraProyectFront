@@ -22,7 +22,7 @@ function CarruselComponent() {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../../../../public/img/carrusel1.jpg" class="d-block " alt="..."></img>
+                        <img src="Cliente\public\img\carrusel1.jpg" class="d-block " alt="..."></img>
                     </div>
                     <div class="carousel-item">
                         <img src="../../../../public/img/carrusel2.jpg" class="d-block  " alt="..."></img>
