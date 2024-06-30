@@ -1,7 +1,7 @@
 import CardsComponent from "../CardsComponents/CardsComponent"
 import CarruselComponent from "../CarruselComponent/CarruselComponent"
 import EsmaltadoSemi from '../../../public/img/EsmaltadoSemi.jpg'
-import capping from '../../../public/img/capping.jpg'
+import capping from '../../../public/img/Capping.jpg'
 import SoftGel from '../../../public/img/SoftGel.jpg'
 import NailArt from '../../../public/img/NailArt.jpg'
 
