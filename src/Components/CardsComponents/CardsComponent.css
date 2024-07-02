@@ -6,6 +6,9 @@
     text-align: center;
     text-decoration: underline;
   }
+  p{
+    text-align: center;
+  }
 }
 .hover-card {
   transition: transform 0.3s, box-shadow 0.3s;
