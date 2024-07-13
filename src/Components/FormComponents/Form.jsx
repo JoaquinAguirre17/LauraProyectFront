@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import axios from 'axios';
 import './From.css'
 
 function Form() {
@@ -7,6 +6,7 @@ function Form() {
         fecha: '',
         hora: '',
         nombreCliente: '',
+        emailCliente: '',
         tipoServicio: '',
         montoSeña: '',
     });
@@ -26,7 +26,6 @@ function Form() {
         "Sábado": ["10:00", "12:30", "15:00"],
     };
 
-
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData({
@@ -43,23 +42,14 @@ function Form() {
         });
     };
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
 
-        const fechaHora = `${formData.fecha} ${formData.hora}`;
+        const mensajeWhatsApp = `Reserva de turno:\nNombre: ${formData.nombreCliente}\nEmail: ${formData.emailCliente}\nFecha: ${formData.fecha}\nHora: ${formData.hora}\nServicio: ${formData.tipoServicio}\nMonto de la Seña: $${formData.montoSeña}`;
+        const urlWhatsApp = `https://api.whatsapp.com/send?phone=3513430611&text=${encodeURIComponent(mensajeWhatsApp)}`;
 
-        try {
-            const response = await axios.post('https://lauraback.onrender.com/turnos/reservar', {
-                ...formData,
-                fechaHora
-            });
-            console.log(response.data);
-            alert('Reserva creada. Inicie el pago para confirmar.');
-            window.location.href = response.data.init_point; // Redirige a la URL de pago
-        } catch (error) {
-            console.error('Error al reservar el turno:', error);
-            alert('Error al reservar el turno. Por favor, inténtelo de nuevo.');
-        }
+        alert('Reserva creada. Serás redirigido a WhatsApp para confirmar.');
+        window.location.href = urlWhatsApp; // Redirige a WhatsApp
     };
 
     return (
