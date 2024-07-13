@@ -10,7 +10,7 @@ function HomeComponent() {
     return (
         <>
             
-            <h3>Mis Servicios</h3>
+            <h3>SERVICIOS</h3>
             <div className="Cards">
                 <CardsComponent titulo={'Esmaltado Semipermanete'} img={EsmaltadoSemi}
                     descrip={'Es un tipo de manicura que se hace cada 2-3 semanas; a diferencia de los esmaltes clásicos, la manicura semipermanente no requiere que se retire y se vuelva a poner de nuevo con tanta frecuencia, todo es gracias a su durabilidad.'} />
@@ -26,7 +26,7 @@ function HomeComponent() {
 
             </div>
 
-            <h3>Mis trabajos</h3>
+            <h3>TRABAJOS</h3>
 
             <CarruselComponent />
 
