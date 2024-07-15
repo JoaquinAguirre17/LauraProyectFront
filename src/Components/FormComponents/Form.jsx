@@ -42,7 +42,7 @@ function Form() {
         e.preventDefault();
     
         try {
-            const response = await axios.post('http://localhost:5000/turnos/reservar', formData);
+            const response = await axios.post('https://lauraproyectback.onrender.com/turnos/reservar', formData);
     
             console.log('Respuesta del servidor:', response.data);
     
@@ -76,7 +76,7 @@ function Form() {
                 } else {
                     try {
                         console.log("Fetching horarios disponibles for fecha:", formData.fecha);
-                        const response = await axios.get('http://localhost:5000/turnos/horarios-disponibles', {
+                        const response = await axios.get('https://lauraproyectback.onrender.com/turnos/horarios-disponibles', {
                             params: { fecha: formData.fecha }
                         });
                         console.log("Horarios disponibles recibidos del backend:", response.data);
