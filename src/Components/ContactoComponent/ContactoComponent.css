@@ -28,7 +28,7 @@ h1 {
 /* Efecto hover */
 h1:hover {
   transform: scale(1.1); /* Aumentar tamaño al pasar el mouse */
-  color: #ff00f2; /* Cambiar color al pasar el mouse */
+  color: #756AB6; /* Cambiar color al pasar el mouse */
 }
 
 .contacto {

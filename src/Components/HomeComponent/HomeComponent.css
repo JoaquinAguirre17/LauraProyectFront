@@ -4,18 +4,10 @@
     padding: 20px;
     justify-content: center;
 }
-
-   
-    
     .carousel-item{
-       
-      
-        
         img{
         border-radius: 30px;  
-        height: 400px;
-
-       
+        height: 400px;       
         }
     }
    
@@ -73,5 +65,5 @@ h3{
 /* Efecto hover */
 h3:hover {
     transform: scale(1.1); /* Aumentar tamaño al pasar el mouse */
-    color: #cc00ff; /* Cambiar color al pasar el mouse */
+    color: #AC87C5; /* Cambiar color al pasar el mouse */
 }

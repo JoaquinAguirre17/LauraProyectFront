@@ -18,7 +18,7 @@
   transform: translateY(-10px); /* Eleva la tarjeta */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade sombra */
   border-style: solid;
-  border-color: rgb(226, 43, 217);
+  border-color: #AC87C5;
 }
 
 .hover-card img {
@@ -28,6 +28,6 @@
 
 .hover-card:hover img {
   transform: scale(1.05); /* Agranda la imagen ligeramente */
-  border-color: rgb(226, 43, 217);
+  border-color: #AC87C5;
   border-style: solid;
 }

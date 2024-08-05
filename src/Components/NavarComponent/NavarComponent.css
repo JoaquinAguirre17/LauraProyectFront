@@ -1,5 +1,5 @@
 .navbar{
-    background-color:#a01476;
+    background-color:#AC87C5;
     color: white;
     display: flex;
 }
@@ -12,7 +12,7 @@
      }
     p{
         color: white;
-        font-size: xx-large;
+        font-size: 45px;
         font-family:Playfair Display;
        
     }
