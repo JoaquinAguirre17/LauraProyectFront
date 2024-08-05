@@ -19,16 +19,16 @@ function NavarComponent() {
                     <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <BotonComponent ruta={'/'} nombre={'Home'} />
+                                <BotonComponent ruta={'/'} nombre={'HOME'} />
                             </li>
                             <li className="nav-item">
-                                <BotonComponent ruta={'/Contacto'} nombre={'Contacto'} />
+                                <BotonComponent ruta={'/Contacto'} nombre={'CONTACTO'} />
                             </li>
                             <li className="nav-item">
-                                <BotonComponent ruta={'/Turnos'} nombre={'Turnos'} />
+                                <BotonComponent ruta={'/Turnos'} nombre={'TURNOS'} />
                             </li>
                             <li className="nav-item">
-                                <BotonComponent ruta={'/AcercaDeMi'} nombre={'Acerca de mi'} />
+                                <BotonComponent ruta={'/AcercaDeMi'} nombre={'ACERCA DE MI'} />
                             </li>
 
 
