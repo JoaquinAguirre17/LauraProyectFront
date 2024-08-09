@@ -2,7 +2,7 @@ function AcercaDeMi() {
     return (
         <>
             <div className="presentacion ">
-                <h3 className="col-12">Un poco sobre mi</h3>
+                <h3 className="col-12">UN POCO SOBRE MI</h3>
                 <p>Hola bellas !!! Soy Laura creadora de Lia Nails Manicura .  Nací en el interior de Córdoba en Villa Dolores.
                     Actualmente vivo en Córdoba Capital 🏠. Soy mamá de Catalina y pareja de Carlos ellos son mis sostén y
                     mi bella familia 💞. Gracias a ellos por el apoyo y el aguante nada sería posible.

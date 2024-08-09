@@ -38,8 +38,8 @@
 }
 h3 {
     font-size: 3rem;
-    text-decoration: underline;
     color: white;
+    font-family: "Caveat", cursive;
     text-align: center;
     margin-top: 50px;
     transition: transform 0.3s ease, color 0.3s ease; /* Transiciones para transformaciones y color */

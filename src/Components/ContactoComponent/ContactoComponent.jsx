@@ -3,7 +3,7 @@ import './ContactoComponent.css'
 function ContactoComponent() {
     return (
         <>
-            <h1>Contactame</h1>
+            <h1>CONTACTAME</h1>
             <div className='contacto'>
                 <div className='maps '>
                     <h4 className='local'>UBICACION DE MI LOCAL</h4>
@@ -31,10 +31,7 @@ function ContactoComponent() {
                                         Lunes
                                     </button>
                                     <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" >9:00hs</a></li>
-                                        <li><a className="dropdown-item" >11:30hs</a></li>
-                                        <li><a className="dropdown-item" >13:30hs</a></li>
-                                        <li><a className="dropdown-item" >17:30hs</a></li>
+                                        <li><a className="dropdown-item" >10:00hs</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -44,9 +41,9 @@ function ContactoComponent() {
                                         Martes
                                     </button>
                                     <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" >9:00hs</a></li>
-                                        <li><a className="dropdown-item" >11:30hs</a></li>
-                                        <li><a className="dropdown-item" >15:00hs</a></li>
+                                        <li><a className="dropdown-item" >10:00hs</a></li>
+                                        <li><a className="dropdown-item" >14:00hs</a></li>
+                                        <li><a className="dropdown-item" >16:00hs</a></li>
                                         <li><a className="dropdown-item" >18:00hs</a></li>
                                     </ul>
                                 </div>
@@ -57,10 +54,10 @@ function ContactoComponent() {
                                         Miercoles
                                     </button>
                                     <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" >9hs</a></li>
-                                        <li><a className="dropdown-item" >11:30hs</a></li>
-                                        <li><a className="dropdown-item" >13:30hs</a></li>
-                                        <li><a className="dropdown-item" >17:30hs</a></li>
+                                        <li><a className="dropdown-item" >10:00hs</a></li>
+                                        <li><a className="dropdown-item" >14:00hs</a></li>
+                                        <li><a className="dropdown-item" >16:00hs</a></li>
+                                        <li><a className="dropdown-item" >18:00hs</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -70,9 +67,9 @@ function ContactoComponent() {
                                         Jueves
                                     </button>
                                     <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" >9:00hs</a></li>
-                                        <li><a className="dropdown-item" >11:30hs</a></li>
-                                        <li><a className="dropdown-item" >15:00hs</a></li>
+                                        <li><a className="dropdown-item" >10:00hs</a></li>
+                                        <li><a className="dropdown-item" >14:00hs</a></li>
+                                        <li><a className="dropdown-item" >16:00hs</a></li>
                                         <li><a className="dropdown-item" >18:00hs</a></li>
                                     </ul>
                                 </div>
@@ -83,9 +80,9 @@ function ContactoComponent() {
                                         Viernes
                                     </button>
                                     <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" >9:00hs</a></li>
-                                        <li><a className="dropdown-item" >11:30hs</a></li>
-                                        <li><a className="dropdown-item" >15:00hs</a></li>
+                                        <li><a className="dropdown-item" >10:00hs</a></li>
+                                        <li><a className="dropdown-item" >14:00hs</a></li>
+                                        <li><a className="dropdown-item" >16:00hs</a></li>
                                         <li><a className="dropdown-item" >18:00hs</a></li>
                                     </ul>
                                 </div>
@@ -96,9 +93,10 @@ function ContactoComponent() {
                                         Sabado
                                     </button>
                                     <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" >10:00hs</a></li>
-                                        <li><a className="dropdown-item" >12:30hs</a></li>
-                                        <li><a className="dropdown-item" >15:00hs</a></li>
+                                        <li><a className="dropdown-item" >9:00hs</a></li>
+                                        <li><a className="dropdown-item" >11:00hs</a></li>
+                                        <li><a className="dropdown-item" >14:00hs</a></li>
+                                        <li><a className="dropdown-item" >16:00hs</a></li>
                                     </ul>
                                 </div>
                             </li>

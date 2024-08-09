@@ -1,5 +1,5 @@
 .navbar{
-    background-color:#AC87C5;
+    background-color:#850F8D;
     color: white;
     display: flex;
 }
@@ -7,14 +7,38 @@
     display: flex;
     justify-items: center;
     align-items: center;
+    flex-wrap: wrap;
     img{
         width: 100px;
      }
     p{
         color: white;
-        font-size: 45px;
-        font-family:Playfair Display;
+        font-size: 65px;
+        /*font-family: "Grey Qo", cursive;*/
+        font-family: "Splash", cursive;
+        font-weight: 400;
+        font-style: normal;
        
     }
     
 }
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    p{
+        color: white;
+        font-size:small;
+         font-family: "Grey Qo", cursive;
+       
+    }
+    
+  }
+  
+  /* Pantallas medianas (tabletas) */
+  @media (max-width: 768px) {
+    p{
+        color: white;
+        font-size: xx-large;
+         font-family: "Grey Qo", cursive;
+       
+    }
+  }
